@@ -1,13 +1,17 @@
 /* место для вашего кода */
+.container{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
 .body {
   color: #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .header {
@@ -65,7 +69,6 @@
 
 .main {
   max-width: 1440px;
-  flex-grow: 1;
 }
 
 .cover {
